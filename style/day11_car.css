@@ -31,10 +31,11 @@ main #video .tab_title a {
     margin-bottom: 20px;
 }
 main #video .tab_title a:first-child {margin-right: 10px;}
-/* main #video .tab_title a:first-child {margin-right: 20px;} */
+/* 탭 제목 활성화 디자인 + js class 호출용 */
 main #video .tab_title a.active {
     border-bottom: 5px solid #0ab1ff;
 }
+/* ------------------------------------------- */
 main #video .tab_contents {}
 main #video .tab_contents .tab_c1 {
     position: relative;
@@ -67,11 +68,13 @@ main #menu .tab_title a {
     border-bottom: 1px solid #888;
 }
 main #menu .tab_title a:last-child {margin-right: 0;}
+/* 탭 제목 활성화 디자인 + js class 호출용 */
 main #menu .tab_title a.active {
     border:1px solid #888;
     border-bottom:1px solid #fff;
     border-top:5px solid #0ab1ff;
 }
+/* ------------------------------------------- */
 main #menu .tab_contents {}
 main #menu .tab_contents .tab_c1 {
     padding-top: 30px;
@@ -107,6 +110,6 @@ main #menu .tab_contents .tab_c1 .right ul li p > em {
     font-size: 1.3rem; font-weight: 700;
 }
 main #menu .tab_contents .tab_c1 .right ul li p > span {}
-main #menu .tab_contents .tab_c2 {height: 400px; background-color: skyblue;}
-main #menu .tab_contents .tab_c3 {height: 400px; background-color: skyblue;}
-main #menu .tab_contents .tab_c4 {height: 400px; background-color: skyblue;}
+main #menu .tab_contents .tab_c2 {height: 400px; padding:50px;}
+main #menu .tab_contents .tab_c3 {height: 400px; padding:50px;}
+main #menu .tab_contents .tab_c4 {height: 400px; padding:50px;}
