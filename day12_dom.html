@@ -39,6 +39,18 @@
         console.log(p[1].nextElementSibling) //p3
         console.log(p[1].nextElementSibling.nextElementSibling) //p3
         p[0].nextElementSibling.style.color = 'red'
+        //4. DOM자식선택법
+        //부모.childNodes 공백 포함 자식선택
+        //부모.children 요소만 인식
+        //부모.firstChild 첫번째 자식 인식(공백포함)
+        //부모.firstElementChild 첫번째 자식 인식 (공백x)
+        //부모.lastChild 마지막 자식 인식 (공백포함)
+        //부모.lastElementChild 마지막 자식 인식 (공백x)
+        console.log(box2.childNodes)
+        console.log(box2.children) //p*3
+        console.log(box2.firstElementChild) //p1
+        console.log(box2.lastElementChild)//p3
+        box2.firstElementChild.style.border = '2px solid #000'
     </script>
 </body>
 </html>
