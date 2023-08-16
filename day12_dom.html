@@ -51,6 +51,11 @@
         console.log(box2.firstElementChild) //p1
         console.log(box2.lastElementChild)//p3
         box2.firstElementChild.style.border = '2px solid #000'
+        //children 모든 자식 p한테 글자크기 2rem
+        //box2.children.style.fontSize = '2rem'
+        for(let i of box2.children){
+            i.style.fontSize = '2rem'
+        }
     </script>
 </body>
 </html>
